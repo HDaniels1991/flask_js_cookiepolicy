@@ -1,0 +1,20 @@
+<!--Modal Stylesheet -->
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='master_cp.css') }}">
+<!-- The Modal -->
+<div id="Modal_cp" class="modal_cp">
+  <!-- Modal content -->
+  <div class="modal-content_cp">
+    <div class="modal-header_cp">
+      <span class="close_cp">&times;</span>
+      <h2>Cookie Policy</h2>
+    </div>
+    <div class="modal-body_cp">
+      <p>This is a cookie policy!</p>
+      <button type="button" id="cpa" data-dismiss="modal">Accept</button>
+      <button type="button" id="cpd" data-dismiss="modal">Dismiss</button>
+    </div>
+    <br>
+  </div>
+</div>
+<!--Modal Scripts -->
+<script type="text/javascript" src="{{ url_for('static', filename='scripts_cp.js') }}"></script>
