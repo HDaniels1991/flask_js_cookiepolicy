@@ -17,3 +17,8 @@ The code in this app demonstrates how you might develop a cookie consent notific
 ## Author
 
 Harry Daniels
+
+### Next steps
+* Add psql db to store user cookie ids.
+* Blueprint application
+* Dockerize application
